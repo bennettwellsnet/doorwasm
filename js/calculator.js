@@ -30,7 +30,7 @@ export function estimateInstallTime(numDoors, complexity = 1.0) {
   return Math.round(baseHours * 10) / 10;
 }
 
-export function calculateProject(do orsList) {
+export function calculateProject(doorsList) {
   let totalCost = 0;
   let totalTime = 0;
   let totalMaterials = { casingFt: 0, hardwareSets: 0 };
